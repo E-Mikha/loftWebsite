@@ -60,11 +60,11 @@ export default class Header extends Component {
 
         <Router>
           <Routes>
-            <Route path="/" element={Home} />
-            <Route path="/exscursions" element={Exscursions} />
-            <Route path="/taxi" element={Taxi} />
-            <Route path="/free" element={Free} />
-            <Route path="/private tours" element={PrivateTours} />
+            <Route path="/" element={<Home />} />
+            <Route path="/exscursions" element={<Exscursions />} />
+            <Route path="/taxi" element={<Taxi />} />
+            <Route path="/free" element={<Free />} />
+            <Route path="/private" element={<PrivateTours />} />
           </Routes>
         </Router>
       </>
