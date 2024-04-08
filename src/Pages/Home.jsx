@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import CarouselBox from "../Components/CarouselBox";
 
 export default class Home extends Component {
   render() {
-    return <div>Home</div>;
+    return <CarouselBox />;
   }
 }
