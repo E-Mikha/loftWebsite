@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 
 import Home from "../../Pages/Home";
-import Exscursions from "../../Pages/Exscursions";
+import Exscursions from "../../Pages/Exscursions/Exscursions";
 import Free from "../../Pages/Free";
 import Taxi from "../../Pages/Taxi";
 import PrivateTours from "../../Pages/PrivateTours";
