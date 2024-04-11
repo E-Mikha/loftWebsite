@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import khaoKheo from "../assets/khaoKheo.jpg";
-import bangkok from "../assets/bangkok.jpg";
+import bangkok from "../assets/bangkokBig.jpg";
 
 export default class CarouselBox extends Component {
   render() {
