@@ -14,6 +14,7 @@ import Exscursions from "../../Pages/Exscursions/Exscursions";
 import Free from "../../Pages/Free";
 import Taxi from "../../Pages/Taxi";
 import PrivateTours from "../../Pages/PrivateTours";
+import Contact from "../../Pages/Contact";
 import logo from "../Header/logo.png";
 
 export default class Header extends Component {
@@ -45,6 +46,7 @@ export default class Header extends Component {
                 <Nav.Link href="/taxi"> Такси </Nav.Link>
                 <Nav.Link href="/free"> Бесплатно </Nav.Link>
                 <Nav.Link href="/private"> Индивидуальные туры </Nav.Link>
+                <Nav.Link href="/contact"> Связаться </Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <FormControl
@@ -65,6 +67,7 @@ export default class Header extends Component {
             <Route path="/taxi" element={<Taxi />} />
             <Route path="/free" element={<Free />} />
             <Route path="/private" element={<PrivateTours />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
       </>
