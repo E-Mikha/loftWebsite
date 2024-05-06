@@ -11,9 +11,7 @@ import {
 
 import Home from "../../Pages/Home";
 import Exscursions from "../../Pages/Exscursions/Exscursions";
-import Free from "../../Pages/Free";
-import Taxi from "../../Pages/Taxi";
-import PrivateTours from "../../Pages/PrivateTours";
+import Free from "../../Pages/Free/Free";
 import Contact from "../../Pages/Contact";
 import logo from "../Header/logo.png";
 
@@ -43,9 +41,7 @@ export default class Header extends Component {
               <Nav className="ms-auto">
                 <Nav.Link href="/"> Главная </Nav.Link>
                 <Nav.Link href="/exscursions"> Экскурсии </Nav.Link>
-                <Nav.Link href="/taxi"> Такси </Nav.Link>
                 <Nav.Link href="/free"> Бесплатно </Nav.Link>
-                <Nav.Link href="/private"> Индивидуальные туры </Nav.Link>
                 <Nav.Link href="/contact"> Связаться </Nav.Link>
               </Nav>
               <Form className="d-flex">
@@ -64,9 +60,7 @@ export default class Header extends Component {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/exscursions" element={<Exscursions />} />
-            <Route path="/taxi" element={<Taxi />} />
             <Route path="/free" element={<Free />} />
-            <Route path="/private" element={<PrivateTours />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
