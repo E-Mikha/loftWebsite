@@ -13,6 +13,7 @@ import Home from "../../Pages/Home";
 import Exscursions from "../../Pages/Exscursions/Exscursions";
 import Free from "../../Pages/Free/Free";
 import Contact from "../../Pages/Contact";
+import Blog from "../../Pages/Blog";
 import logo from "../Header/logo.png";
 
 export default class Header extends Component {
@@ -42,6 +43,7 @@ export default class Header extends Component {
                 <Nav.Link href="/"> Главная </Nav.Link>
                 <Nav.Link href="/exscursions"> Экскурсии </Nav.Link>
                 <Nav.Link href="/free"> Бесплатно </Nav.Link>
+                <Nav.Link href="/blog"> Блог </Nav.Link>
                 <Nav.Link href="/contact"> Связаться </Nav.Link>
               </Nav>
               <Form className="d-flex">
@@ -61,6 +63,7 @@ export default class Header extends Component {
             <Route path="/" element={<Home />} />
             <Route path="/exscursions" element={<Exscursions />} />
             <Route path="/free" element={<Free />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
